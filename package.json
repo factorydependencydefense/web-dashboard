@@ -9,7 +9,8 @@
   },
   "scripts": {
     "build": "esbuild src/main.js --bundle --outfile=dist/bundle.js",
-    "test": "node --test \"test/**/*.test.js\""
+    "test": "node --test \"test/*.test.js\"",
+    "test:security": "node --test \"test/security/**/*.test.js\""
   },
   "dependencies": {
     "jquery": "4.0.0",
