@@ -13,9 +13,7 @@
     "test:security": "node --test \"test/security/**/*.test.js\""
   },
   "dependencies": {
-    "jquery": "4.0.0",
     "lodash": "4.17.10",
-    "moment": "2.31.0",
     "react": "19.3.1",
     "react-dom": "19.3.1"
   },
