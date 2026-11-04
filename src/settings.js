@@ -1,4 +1,4 @@
-import _ from 'lodash';
+import _ from '@factorydependencydefense/lodash-lite';
 
 const defaultSettings = {
   refreshSeconds: 30,
